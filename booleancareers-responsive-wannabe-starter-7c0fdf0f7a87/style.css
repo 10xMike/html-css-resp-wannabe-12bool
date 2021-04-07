@@ -6,11 +6,11 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
+/* #lezioni .row>.left,
 #lezioni .row>.right {
   width: 50%;
   float: left;
-}
+} */
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -70,4 +70,22 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width: 767px) {
+  #lezioni, #why {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #lezioni, #why {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #steps, #why {
+    background-color: white;
+  }
 }
